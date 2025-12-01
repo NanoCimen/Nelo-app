@@ -1,0 +1,26 @@
+{
+  "name": "nelo-app",
+  "version": "0.1.0",
+  "description": "Restaurant discovery app for Dominican Republic",
+  "private": true,
+  "workspaces": [
+    "mobile",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "cd mobile && npm start",
+    "dev:mobile": "cd mobile && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "install:all": "npm install && cd mobile && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "restaurant",
+    "discovery",
+    "dominicana",
+    "reviews",
+    "mobile"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
