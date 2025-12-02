@@ -106,7 +106,7 @@ export default function FeedScreen() {
         </View>
 
         {/* Filters */}
-        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={styles.filtersContainer}>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.filtersContainer}>
           <TouchableOpacity style={styles.filterButton}>
             <Ionicons name="location-outline" size={14} color={Colors.nelo.black} />
             <Text style={styles.filterText}>Nearby</Text>

@@ -12,7 +12,7 @@ const Tab = createBottomTabNavigator();
 export default function TabNavigator() {
   return (
     <Tab.Navigator
-      screenOptions={{
+      screenOptions={({}) => ({
         headerShown: false,
         tabBarActiveTintColor: Colors.nelo.black,
         tabBarInactiveTintColor: Colors.nelo.subtle,
@@ -28,7 +28,7 @@ export default function TabNavigator() {
           fontSize: 10,
           fontWeight: '600',
         },
-      }}>
+      })}>
       <Tab.Screen
         name="Feed"
         component={FeedScreen}
